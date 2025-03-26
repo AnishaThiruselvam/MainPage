@@ -47,6 +47,47 @@
         font-size: 25px
       }
 
+      /*aboutSection*/
+      .aboutSection1 {
+        font-family: "Kalnia", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+
+        color: #583322;
+        position: relative;
+        top: -120px;
+        font-size: 80px;
+        margin-left: 200px;
+        margin-right: 50px;
+      }
+
+      .aboutSection2 {
+        font-family: "Italianno", cursive;
+        font-weight: 500;
+        font-style: normal;
+
+        color: #583322;
+        font-size: 300px;
+        margin-left: 320px;
+        margin-top: -350px;
+      }
+
+      .aboutSection3 {
+        font-family: "Kanit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 25px;
+
+        color: #583322;
+        position: relative;
+        top: -550px;
+        margin-left: 50%;
+        margin-right: 150px;
+        text-align: justify;
+      }
+
       #backdrop {
         width: 100%;
         height: 900px;
@@ -71,8 +112,8 @@
         font-weight: 400;
         font-style: normal;
       }
-      
-        .buttonClicked {
+
+      .buttonClicked {
         border: none;
         background-color: #583322;
         color: #E6D7C4;
@@ -106,7 +147,6 @@
         right: 0;
         background-color: #E6D7C4;
       }
-      
     </style>
   </head>
   <body>
@@ -117,21 +157,21 @@
       ANISHA<br>THIRUSELVAM
     </h3>
 
-    <h2 style="color:#E6D7C4; position:relative; top: 120px; text-align:center; font-size: 80px;">welcome to my </h2>
+    <h2 style="color:#E6D7C4; position:relative; top: 120px; text-align:center; font-size: 80px;">welcome to my</h2>
     <h1 style="color:white; position:relative; top: -135px; text-align:center; font-size: 300px;"> portfolio</h1>
-    
+
     <p style="color:white; position:relative; top: -350px; text-align:center">[graphic &amp user experience designer]</p>
 
     <!--about me section-->
-    <h2 style="color:#583322; position:relative; top: -120px; font-size: 80px; margin-left: 200px; margin-right: 50;">about</h2>
-    <h1 style="color:#583322; font-size: 300px; margin-left: 320px; margin-top: -350px">me</h1>
+    <div id="aboutSection">
+      <h2 class="aboutSection1">about</h2>
+      <h1 class="aboutSection2">me</h1>
+      <p class="aboutSection3">Hi I'm Anisha, a creative and detail-oriented Global Business and Digital Arts student at the University of Waterloo with experience in marketing, design, and leadership. Through involvement in various clubs, I have refined my skills, and am eager to learn and apply my knowledge in a dynamic and collaborative environment! Feel free to snoop around and learn more about me!
+      </p>
+    </div>
     
-
-    <p style="color:#583322; position:relative; top: -550px; margin-left: 50%; margin-right: 150px; text-align:justify;"> Hi I'm Anisha, a creative and detail-oriented Global Business and Digital Arts student at the University of Waterloo with experience in marketing, design, and leadership. Through involvement in various clubs, I have refined my skills, and am eager to learn and apply my knowledge in a dynamic and collaborative environment! Feel free to snoop around and learn more about me!
-    </p>
-
-
-    <p style="background-color:#583322; width: 100%; height: 90px; text-align:center; color: #E6D7C4; line-height: 90px;"> © 2025 Anisha Thiruselvam. All Rights Reserved.</p>
+    <!--footer-->
+    <p style="background-color:#583322; width: 100%; height: 90px; text-align:center; color: #E6D7C4; line-height: 90px; margin: 0; padding: 0;;"> © 2025 Anisha Thiruselvam. All Rights Reserved.</p>
 
     <!--Header-->
     <div id="header">
@@ -144,7 +184,7 @@
       <a href="https://anishathiruselvam.github.io/projectsPage/">
         <button class="button button1" style="right: 580px;">projects</button>
       </a>
-         <a href="https://anishathiruselvam.github.io/MainPage/">
+      <a href="https://anishathiruselvam.github.io/MainPage/">
         <button class="buttonClicked button1" style="right: 810px;">home</button>
       </a>
       <h3 style="color:#583322; left: 40px">
@@ -154,5 +194,3 @@
     </div>
   </body>
 </html>
-
-
