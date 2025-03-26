@@ -43,58 +43,81 @@
         font-weight: 300;
         font-style: normal;
       }
-      
+
       #backdrop {
-      width: 100%;
-      height: 900px;
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: #583322;
-    }
-      
+        width: 100%;
+        height: 900px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #583322;
+      }
+
       .button {
-  border: none;
-  color: #583322;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-            
+        border: none;
+        background-color: #E6D7C4;
+        color: #583322;
+        padding: 15px 40px;
+        text-align: center;
+        margin: 15px 20px;
+        cursor: pointer;
+        border-radius: 50px;
+        font-size: 25px;
+
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
       .button:hover {
         background: #583322;
         color: #E6D7C4
       }
-      
+
       .button1 {
-        position: relative;
-        float: right;
-        margin-right: 25px;
+        position: fixed;
+        top: 20px;
       }
-      
+
+
+      #header {
+        width: 100%;
+        height: 120px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: #E6D7C4;
+      }
     </style>
   </head>
   <body>
     <!--header and backcolor-->
     <div id="backdrop"> </div>
+
     <h2 style="color:#E6D7C4; position:relative; top: 150px; text-align:center; font-size: 80px;">welcome to my </h2>
     <h1 style="color:white; position:relative; top: -95px; text-align:center; font-size: 300px;"> portfolio</h1>
-    
+
     <!--about me section-->
     <h2 style="color:#583322; position:relative; top: 100px; font-size: 80px; margin-left: 200px; margin-right: 50;">about</h2>
     <h1 style="color:#583322; font-size: 300px; margin-left: 320px; margin-top: -100px">me</h1>
-        
-    <p style="color:#583322; position:relative; top: -550px; font-size: 25px; margin-left: 50%; text-align:left;"> Hi I'm Anisha, a creative and detail-oriented Global Business and Digital Arts student at the University of Waterloo with experience in marketing, design, and leadership. Through involvement in various clubs, I have refined my skills, and am eager to learn and apply my knowledge in a dynamic and collaborative environment! Feel free to snoop around and learn more about me!
+
+    <p style="color:#583322; position:relative; top: -550px; font-size: 25px; margin-left: 50%; margin-right: 150px; text-align:justify;"> Hi I'm Anisha, a creative and detail-oriented Global Business and Digital Arts student at the University of Waterloo with experience in marketing, design, and leadership. Through involvement in various clubs, I have refined my skills, and am eager to learn and apply my knowledge in a dynamic and collaborative environment! Feel free to snoop around and learn more about me!
     </p>
-    
-    <p style="background-color:#583322;color:white; width: 100%; font-size: 25px; text-align:center;"> © 2025 Anisha Thiruselvam. All Rights Reserved.</p>
-    
+
+    <p style="background-color:#583322; color:white; width: 100%; font-size: 25px; text-align:center;"> © 2025 Anisha Thiruselvam. All Rights Reserved.</p>
+
+    <div id="header"> </div>
     <a href="https://anishathiruselvam.github.io/contactUs/">
-  <button class="button button1">Contact Us</button>
-</a>
+      <button class="button button1" style="right: 20px;">Contact Us</button>
+    </a>
+    
+    <a href="https://anishathiruselvam.github.io/projectPage/">
+      <button class="button button1" style="right: 300px;">Projects</button>
+    </a>
+
+    <a href="https://anishathiruselvam.github.io/playgroundPage/">
+      <button class="button button1" style="right: 580px;">Projects</button>
+    </a>
+
   </body>
 </html>
